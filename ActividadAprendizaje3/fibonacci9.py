@@ -15,21 +15,4 @@ os.system("cls || clear")
 print("***Serie de Fibonacci hasta un límite***")
 n = int(input("Introduce un número entero positivo\n-> "))
 
-fib1, fib2 = 0, 1
-
-for i in range(1, n+1):
-    if i == 1:
-        fib = 0
-    elif i == 2:
-        fib = 1
-    else:
-        fib = fib1 + fib2
-        fib1, fib2 = fib2, fib
-    
-    print(fib, end=" ")
-    time.sleep(0.5)
-
-print("\n***Fin del programa***")
-print("¡Feliz fin de programa!")
-
 
